@@ -90,10 +90,13 @@ Works best with [Neovim] ≥0.5 ⚠️ For Vim 8.x, use the
 * Plugins are parsed [from YAML](./config/plugins.yaml) and cached.
   Ensure **one** of these tools is installed:
   * [yj](https://github.com/sclevine/yj) (`brew install yj`)
-  * [yq](https://github.com/mikefarah/yq) (`brew install yq`)
+  * [yq](https://github.com/mikefarah/yq) (MacOS: `brew install yq` Ubuntu: `snap install yq`)
   * [yaml2json](https://github.com/bronze1man/yaml2json)
-  * Ruby
+  * Ruby (Ubuntu: `sudo apt-get install ruby-full`)
+  * Python (Ubuntu: `sudo apt install python python3 python3-pip` `curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py` `sudo python get-pip.py`)
   * Python with PyYAML (`pip install PyYAML`)
+  * Pynvim (Ubuntu: `pip3 install pynvim`)
+  * Tmux (Ubuntu: `sudo apt install tmux`)
 
 ## Install
 
